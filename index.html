@@ -16,7 +16,7 @@
         header {
             background-color: #0056b3;
             color: #fff;
-            padding: 20px 0;
+            padding: 0;
             text-align: center;
             position: relative;
         }
@@ -68,24 +68,48 @@
             height: auto;
             border-radius: 8px;
         }
+        .donation-section {
+            text-align: center;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .progress-bar {
+            background-color: #f2f2f2;
+            border-radius: 25px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .progress-bar-inner {
+            height: 30px;
+            width: 60%; /* Atualize essa porcentagem conforme o valor arrecadado */
+            background-color: #00c853;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
     <header>
-        <img src="https://wellingtonanastacio.github.io/vaquinha-mesa-de-som/header_image_1200x300.png" alt="Imagem de destaque - show ao vivo">
+        <img src="header_image_1200x300.png" alt="Imagem de destaque - show ao vivo">
         <h1>Vaquinha para Compra de Mesa de Som Digital</h1>
     </header>
     <section>
         <h2>O que é um Mixer Digital?</h2>
         <div class="image-section">
-            <img src="https://via.placeholder.com/800x400" alt="Imagem de um mixer digital">
+            <img src="section_image_800x400.png" alt="Imagem de um mixer digital">
         </div>
         <p>Um mixer digital é um equipamento de som usado por músicos e técnicos para controlar e misturar sinais de áudio de várias fontes. Diferente dos mixers analógicos, os mixers digitais oferecem recursos avançados como processamento de efeitos, equalização precisa e controle remoto via dispositivos móveis. Isso permite mais flexibilidade e qualidade de som, essencial para performances profissionais.</p>
     </section>
     <section>
         <h2>Importância de um Mixer Digital para Músicos</h2>
         <div class="image-section">
-            <img src="https://via.placeholder.com/800x400" alt="Imagem de um músico ajustando mixer digital">
+            <img src="importance_section_image_800x400.png" alt="Imagem de um músico ajustando mixer digital">
         </div>
         <p>Para um músico profissional, ter um mixer digital significa ter mais controle sobre o som durante as apresentações e gravações. Ele proporciona uma mixagem limpa e eficaz, além de recursos de automação e presets para facilitar o trabalho em shows ao vivo e gravações em estúdio.</p>
     </section>
@@ -147,6 +171,15 @@
                 <td>5.000,00</td>
             </tr>
         </table>
+    </section>
+    <section class="donation-section">
+        <h2>Como Ajudar</h2>
+        <p>Contribua com a nossa vaquinha e ajude a alcançar a meta para a compra da mesa de som digital!</p>
+        <p><strong>Pix:</strong> 11997178464</p>
+        <div class="progress-bar">
+            <div class="progress-bar-inner" style="width: 60%;">60% da meta alcançada</div> <!-- Atualize a porcentagem conforme necessário -->
+        </div>
+        <p>Obrigado por apoiar o crescimento da nossa música!</p>
     </section>
 </body>
 </html>
